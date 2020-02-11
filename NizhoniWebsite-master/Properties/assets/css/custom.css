@@ -386,6 +386,33 @@ i.ci {
 .ci.ci-instructor   {background-position: -160px 0;}
 .ci.ci-device       {background-position: -200px 0;}
 
+
+.sprite {
+    background-image: url('../img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-mail {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+    position: center;
+}
+
+.sprite-phone {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.sprite-place {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+
 /* ===Media Queries === */
 @media screen and (max-width: 991px) {
     #instructor .container {
